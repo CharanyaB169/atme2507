@@ -27,4 +27,5 @@ collection = db['med_labresult']
 collection.delete_many({})
 collection.insert_many(med_lab_df.to_dict('records'))
 
-print('Processed Daigonis Lab result loaded to warehouse database')
+print('Processed Diagnosis Lab result loaded to warehouse database')
+
